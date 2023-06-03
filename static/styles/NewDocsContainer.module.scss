@@ -1,0 +1,12 @@
+.shadow{
+    box-shadow: 0px 2px 5px rgba(210, 207, 207, 5);
+    transition-delay: 2s;
+    transition: box-shadow ease-in-out;
+}
+
+.overview{
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}

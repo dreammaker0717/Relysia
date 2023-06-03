@@ -1,0 +1,13 @@
+.base {
+  @apply relative mb-28 ;
+  margin-top: -13%;
+}
+
+.graphSVG {
+  @apply w-full;
+}
+
+.cards {
+  @apply grid gap-10;
+  grid-template-columns: repeat(auto-fit, minmax(21.8rem, 1fr));
+}

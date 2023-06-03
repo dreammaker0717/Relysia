@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es5",
+    "jsx": "react",
+    "sourceMap": true,
+    "lib": ["es2015", "dom"],
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/config/*": ["config/*"],
+      "@/axios-connect/*": ["axios-connect/*"],
+      "@/assets/*": ["assets/*"],
+      "@/services/*": ["services/*"],
+      "@/constants/*": ["constants/*"],
+      "@/pages/*": ["pages/*"],
+      "@/presets/*": ["presets/*"],
+      "@/redux/*": ["redux/*"],
+      "@/styles/*": ["styles/*"],
+      "@/images/*": ["public/images/*"],
+      "@/firebase/*": ["firebase/*"],
+      "@/utils/*": ["utils/*"],
+      "@/hooks/*": ["hooks/*"]
+    }
+  }
+}

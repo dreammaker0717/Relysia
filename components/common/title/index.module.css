@@ -1,0 +1,27 @@
+.base {
+  @apply text-white font-bold;
+}
+
+.h1 {
+  @apply text-h1;
+}
+
+.h2 {
+  @apply text-h2 font-medium;
+}
+
+.h3 {
+  @apply text-h3;
+}
+
+.h4 {
+  @apply text-h4;
+}
+
+.h5 {
+  @apply text-h5 text-secondary font-semibold uppercase tracking-tightS;
+}
+
+.border {
+  @apply flex w-28 h-2 bg-gradient rounded-2xl mb-6;
+}

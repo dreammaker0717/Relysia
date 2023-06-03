@@ -1,0 +1,42 @@
+.base {
+  @apply bg-no-repeat bg-opacity-40
+  pb-24
+  -mt-8
+  bg-top
+  lg:bg-right
+  lg:py-28
+  lg:mt-0;
+}
+
+.wrapper {
+  @apply flex flex-col
+  lg:flex-row;
+}
+
+.left,
+.right {
+  @apply flex-1;
+}
+
+.left {
+  @apply flex
+  justify-center
+  mb-14
+  lg:mb-0;
+}
+
+.right {
+  @apply flex items-center;
+}
+
+.content {
+  @apply ml-8
+  max-w-[26.5625rem]
+  lg:-mt-36;
+}
+
+.p {
+  @apply text-par-s
+  flex-1
+  my-6;
+}

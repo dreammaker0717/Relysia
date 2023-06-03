@@ -1,0 +1,66 @@
+.wrapper {
+  @apply relative h-12 mb-8 flex items-center;
+}
+
+.input {
+  @apply bg-customInput border-0
+  pl-14
+  pr-4
+  w-full
+  h-full
+  rounded-2xl
+  caret-relPink
+
+  focus-visible:outline-none
+  placeholder:text-placeholder;
+
+  color-scheme: dark;
+}
+
+.icon {
+  @apply absolute z-5 left-4;
+}
+
+.checkbox {
+  @apply absolute opacity-0 text-white z-[-9999];
+
+  &:checked ~ .label::before {
+    @apply border-2 border-white;
+  }
+  &:checked ~ .label::after {
+    @apply opacity-10;
+  }
+}
+
+.wrapperCh {
+  @apply relative flex items-center;
+}
+
+.label {
+  @apply inline-block
+  m-0
+  pl-6
+  text-white
+  leading-4
+  cursor-pointer;
+  &::before,
+  &::after {
+    @apply block absolute content-[''];
+  }
+  &::before {
+    @apply top-0
+    left-0
+    w-4
+    h-4
+    border-2 border-white
+    rounded-sm;
+  }
+  &::after {
+    @apply top-1 left-1.5
+    w-1
+    h-2
+    border-r-2
+    border-b-2
+    border-white transform rotate-45;
+  }
+}

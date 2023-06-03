@@ -1,0 +1,21 @@
+.base {
+  @apply relative flex items-center
+  bg-cover bg-no-repeat
+  -mt-24
+  z-5
+  bg-60%
+  h-worldMapBig
+  md:h-worldMap
+  lg:bg-center
+  r-min-3xl:h-worldMapBig;
+}
+
+.content {
+  @apply w-full
+  md:w-1/2;
+}
+
+.cards {
+  @apply grid grid-cols-1 gap-x-5 gap-y-12
+  md:grid-cols-home-two-small-box;
+}

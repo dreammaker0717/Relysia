@@ -1,0 +1,5 @@
+.svg {
+  @apply absolute
+  left-0
+  top-0;
+}

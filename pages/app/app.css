@@ -1,0 +1,43 @@
+.app-name {
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 20px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+input[type='checkbox'] {
+  width: 14px !important;
+  height: 14px !important;
+  margin: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  outline: 1px solid gray;
+  box-shadow: none;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 1em;
+  background: rgb(223, 212, 212);
+}
+
+input[type='checkbox']:checked:after {
+  content: '✔';
+  color: white;
+}
+
+input[type='checkbox']:checked {
+  background: rgb(13, 124, 228);
+}

@@ -1,0 +1,13 @@
+.base {
+  @apply relative inline-block;
+}
+
+.img {
+  @apply relative z-10;
+}
+
+.lines {
+  @apply absolute top-0 w-[85%]
+  z-10
+  r-min-lg:w-auto;
+}

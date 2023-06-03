@@ -1,0 +1,36 @@
+.wrapper {
+  @apply relative h-14 flex items-center;
+}
+
+.input {
+  @apply bg-transparent border-0
+  px-2 mx-2
+  z-10
+  order-2
+  focus-visible:outline-none
+  placeholder:text-placeholder;
+}
+
+.label {
+  @apply absolute top-0 -left-4 bottom-0 -right-2
+  m-0
+  rounded-full
+  border border-borderOne;
+}
+
+.svg {
+  @apply order-1;
+}
+
+.btn {
+  @apply order-3;
+}
+
+.input:focus-visible + .focusWrapper .label {
+  @apply border-2;
+  border-color: #64649b;
+}
+
+.input:focus-visible + .focusWrapper .svg path {
+  stroke: #64649b;
+}

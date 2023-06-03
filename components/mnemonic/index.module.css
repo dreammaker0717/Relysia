@@ -1,0 +1,25 @@
+.mnemonic-header {
+  @apply flex flex-row justify-center items-center;
+}
+
+.title {
+  @apply text-xl text-gray-600 ml-3;
+}
+
+.icon {
+  @apply text-gray-600 mr-3;
+}
+
+.w-24-custom {
+  width: 22%;
+  @apply my-1;
+}
+
+.box-bg {
+  background-color: rgba(252, 143, 12, 0.15);
+  @apply p-2 rounded-md
+}
+
+.box-text {
+  @apply text-center text-gray-900
+}

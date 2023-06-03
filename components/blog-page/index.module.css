@@ -1,0 +1,27 @@
+.container {
+  @apply grid gap-20 grid-cols-1
+  mt-20
+
+  md:grid-cols-two-one;
+}
+
+.relatedContainer {
+  @apply col-span-full
+  border-t border-borderTwo
+  py-24;
+}
+
+.related {
+  @apply grid grid-cols-1 gap-9
+
+  md:grid-cols-3;
+}
+
+.asideSection {
+  @apply mt-8 py-8
+  /* border-t border-borderTwo; */
+}
+
+.tags {
+  @apply flex flex-wrap;
+}

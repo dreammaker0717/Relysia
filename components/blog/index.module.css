@@ -1,0 +1,55 @@
+.base {
+  @apply grid gap-10 min-h-[101.75rem] auto-rows-max;
+  grid-template-columns: repeat(auto-fit, minmax(21.8rem, 1fr));
+}
+
+.first {
+  @apply col-span-full;
+}
+
+.paginationWrapper {
+  @apply flex justify-center;
+}
+
+.pagination {
+  @apply inline-flex items-center justify-around
+  bg-cardArticleBg
+  px-3
+  py-2
+  mt-20
+  rounded-default;
+
+  li {
+    @apply rounded;
+
+    &:not(.prev, .next) {
+      @apply mx-2;
+      a {
+        @apply flex items-center justify-center
+        w-8
+        h-8;
+      }
+    }
+
+    &.next,
+    &.prev {
+      @apply bg-pinkTransparent;
+
+      a {
+        @apply flex p-[3px];
+      }
+    }
+  }
+
+  .disabled {
+    @apply opacity-30;
+  }
+
+  a:focus {
+    @apply text-white;
+  }
+
+  .active {
+    @apply bg-pinkTransparent font-bold;
+  }
+}

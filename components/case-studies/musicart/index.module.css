@@ -1,0 +1,147 @@
+.base {
+  @apply pb-52;
+}
+
+.wrapper {
+  @apply flex flex-col-reverse justify-between
+  gap-8
+  mt-8
+  lg:mt-0
+  lg:flex-row
+  lg:gap-20;
+}
+
+.left {
+  @apply pt-16 flex-1;
+}
+
+.right {
+  @apply relative
+  w-auto
+  px-0
+  md:px-40
+  lg:px-0
+  lg:w-[34.5rem];
+}
+
+.p {
+  @apply text-par-s text-white my-8;
+}
+
+.img {
+  @apply flex z-10;
+}
+
+.circle {
+  z-index: -1;
+  @apply absolute inline-block
+  w-[340px]
+  -top-36
+  -right-32
+  md:w-[40%]
+  md:-top-36
+  md:right-0
+  lg:-top-36
+  lg:-right-24
+  lg:w-[347px];
+}
+
+.cardContainer{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  margin-top:20px;
+}
+.musicArtCard{
+  border: solid 1px #ffffff;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  margin:auto;
+  display:flex;
+  justify-content: space-between;
+  margin-top:100px;
+}
+.media{
+  width:30%;
+  background-color:#2E2E47;
+  border-radius: 15px;
+  margin:20px 0;
+  padding: 1rem 0.6rem 0.3rem 0.6rem !important;
+}
+.mediaBody{
+  display: flex;
+  align-items: center;
+}
+.mediaTxt{
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom:12px;
+  text-transform: uppercase;
+}
+.mediaFigTxt{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom:10px;
+}
+.mediaFigHead{
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+.mediaFig{
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+}
+@media (max-width:1199px) and (min-width:992px) {
+  .media{
+    width:40% !important;
+  }
+}
+@media (max-width:991px) {
+  .media{
+    width:47% !important;
+    margin:20px 0;
+  }
+}
+.hr{
+  background-color: #E5E7EB;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+.button{
+  border-radius: 6px!important;
+}
+.avatarBody{
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+}
+.avatarName{
+  margin-left: 12px;
+  font-weight: 300;
+  font-size: 16px;
+}
+.nav:first-of-type{
+  left: 10rem!important;
+}
+.lazy{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+}
+/* ************************** */
+.h2{
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 700;
+}

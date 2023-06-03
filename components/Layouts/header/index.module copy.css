@@ -1,0 +1,77 @@
+.header {
+  @apply relative bg-transparent z-50 min-h-[5.5rem];
+
+}
+.headerWhite{
+  @apply relative bg-transparent z-50 min-h-[5.5rem];
+  background-color: white;
+  color:black;
+}
+
+.headerApi {
+  @apply flex items-center justify-between
+  px-6
+  min-h-[5.5rem]
+  border-b-2 border-borderOne
+  bg-primary
+  relative
+  z-5;
+ 
+}
+
+.navItemMobile {
+  @apply relative
+  inline-block
+  w-full
+  text-center
+
+  hover:text-white;
+}
+.navItemWhiteMobile {
+  @apply relative
+  inline-block
+  w-full
+  text-center
+  hover:text-red-700;
+}
+
+
+.navItemWhiteMobile:hover::before {
+  @apply opacity-100;
+}
+
+.navItemWhiteMobile::before {
+  content: '';
+  @apply absolute top-0 left-0
+  bg-gradient
+  w-1.5
+  h-full
+  rounded-b-sm
+  /* h-1.5 */
+  transition-all duration-300 ease-in-out
+  opacity-0;
+}
+
+.navItemWhiteMobile.active::before {
+  @apply opacity-100;
+}
+/* /// */
+
+.navItemMobile:hover::before {
+  @apply opacity-100;
+}
+
+.navItemMobile::before {
+  content: '';
+  @apply absolute top-0 left-0
+  bg-gradient
+  w-full
+  rounded-b-sm
+  h-1.5
+  transition-all duration-300 ease-in-out
+  opacity-0;
+}
+
+.navItemMobile.active::before {
+  @apply opacity-100;
+}

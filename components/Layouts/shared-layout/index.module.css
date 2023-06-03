@@ -1,0 +1,4 @@
+.base {
+  @apply bg-120%
+  md:bg-auto;
+}

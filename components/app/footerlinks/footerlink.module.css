@@ -1,0 +1,6 @@
+.column {
+    @apply flex-1 order-1 mb-8 md:mb-0;
+}
+.linkItem {
+    @apply text-lg tracking-tightS mb-2.5;
+  }

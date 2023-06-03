@@ -1,0 +1,98 @@
+.hero {
+  @apply relative
+  h-auto
+  sm:h-[55rem]
+  lg:h-[40rem]
+  r-min-lg:h-[55rem];
+}
+
+.wrapper {
+  @apply flex
+  h-full
+  flex-col-reverse
+  /* md:mt-40 */
+  lg:items-center
+  lg:flex-row
+  r-min-lg:mt-0
+  r-min-lg:block;
+}
+
+.heroLeft {
+  @apply relative
+  flex-[2]
+  z-20
+  mt-16
+  sm:top-auto
+  lg:mt-0
+  r-min-lg:absolute
+  r-min-lg:top-1/2
+  r-min-lg:max-w-[25.875rem]
+  r-min-lg:translate-y-[-66%];
+}
+
+.heroRight {
+  @apply relative
+  flex-[3]
+  z-10
+  sm:top-auto
+  r-min-lg:h-full;
+}
+
+.p {
+  @apply text-par text-white my-8;
+  letter-spacing: -0.99px;
+}
+
+@media (min-width: 768px) {
+  .heroLeft {
+    width: 50%;
+  }
+  .heroRight {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .heroLeft {
+    width: 100%;
+  }
+  .heroRight {
+    width: 100%;
+  }
+}
+
+.imgWrapper {
+  @apply relative
+  z-10
+  r-min-lg:absolute
+  r-min-lg:top-0
+  r-min-lg:-right-40
+  r-min-lg:max-w-heroMax;
+}
+
+/* .heroImg {
+  @apply relative
+  z-10
+  r-min-lg:absolute
+  r-min-lg:top-0
+  r-min-lg:-right-40
+  r-min-lg:max-w-heroMax;
+}
+
+.heroImgLines {
+  @apply absolute
+  top-0
+  right-36
+  w-[84%]
+  z-10
+  r-min-lg:w-auto
+  r-min-lg:-right-8;
+} */
+
+.actions {
+  @apply mb-8;
+}
+
+.actions button {
+  @apply mr-4 md:mr-8;
+}

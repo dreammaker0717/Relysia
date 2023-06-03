@@ -1,0 +1,7 @@
+.active card {
+  @apply text-black;
+}
+.dash-card-body h6,
+.dash-card-body p {
+  @apply text-gray-400;
+}

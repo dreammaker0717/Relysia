@@ -1,0 +1,18 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.format": true
+    },
+    "typescript.validate.enable": false,
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/.next": true,
+      "yarn.lock": true
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+  }
+  

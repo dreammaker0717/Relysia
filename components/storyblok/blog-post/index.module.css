@@ -1,0 +1,32 @@
+.imgWrapper {
+  @apply relative mb-8;
+}
+
+.header {
+  @apply mb-8 text-5xl
+}
+
+.img {
+  @apply rounded-2xl object-cover bg-gray-400;
+}
+
+.authorWrapper {
+  @apply flex justify-between items-center mb-8;
+}
+
+.icons {
+  .icon:not(:last-child) {
+    @apply mr-4;
+  }
+}
+
+.author {
+  @apply flex justify-between items-center;
+}
+
+.avatar {
+  @apply w-[3.75rem] h-[3.75rem] object-cover
+  mr-2
+  rounded-full
+  bg-secondary;
+}

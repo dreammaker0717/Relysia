@@ -1,0 +1,49 @@
+.base {
+  border-top: 2px solid #4c496d;
+  width: 100vw;
+  min-height: 349.07;
+}
+.hideIcon {
+  @apply opacity-0 transition-all ease-in-out duration-200 hidden;
+}
+.showIcons {
+  @apply opacity-10 transition-all ease-in-out duration-200;
+}
+.headerWhite {
+  border-top: 1px solid #4c496d31;
+  @apply bg-white text-black;
+}
+.column {
+  @apply flex-1 order-1 mb-8 md:mb-0;
+}
+
+.brand {
+  @apply order-2 md:order-1;
+}
+
+.icons {
+  @apply flex mt-4 mb-6 order-1;
+}
+
+.icon {
+  @apply mr-2.5
+  last:mr-0;
+}
+
+.linkItem {
+  @apply text-lg tracking-tightS mb-2.5;
+}
+
+.copyright {
+  @apply flex flex-col items-center justify-center py-2
+  bg-black
+  bg-opacity-10
+  font-light
+  text-sm
+  whitespace-pre
+  md:flex-row;
+
+  span {
+    @apply block;
+  }
+}

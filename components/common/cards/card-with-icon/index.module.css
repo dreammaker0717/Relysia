@@ -1,0 +1,16 @@
+.base {
+  @apply w-full flex items-start text-base;
+}
+
+.title {
+  @apply text-white font-bold
+  mt-2 mb-3;
+}
+
+.p {
+  @apply text-par-s text-white mb-5 tracking-tightS;
+}
+
+.icon {
+  @apply mr-6;
+}

@@ -1,0 +1,196 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.Toastify__toast-container {
+z-index: 890000;
+}
+
+@layer base {
+  :root {
+    --primary: #000;
+    --secondary: #fe2c3d;
+    --secondaryLight: #f75463;
+    --third: #3f4060;
+    --fourth: #ff9199;
+    --fifth: #282554;
+    --sixth: #29293b;
+    --sHover: #434262;
+    --sHover2: #43435a;
+    --pinkTransparent: rgba(255, 204, 208, 0.2);
+    --bgLight: rgba(255, 245, 246, 0.2);
+    --relPink: #ff9199;
+    --relGreen: #79e59a;
+    --gradient: linear-gradient(92.55deg, #e70077 3.08%, #fc8f0c 97.48%);
+    --gradientHover: linear-gradient(
+      111.07deg,
+      #e7009a 10.57%,
+      #fc5c0c 105.27%
+    );
+    --gradient2: linear-gradient(180deg, #1f87ef 0%, #d614a8 100%);
+    --gradient3: linear-gradient(101.46deg, #40ca69 9.74%, #0cfcd1 118.22%);
+    --cardBLur: 100px;
+    --cardArticleBg: rgba(64, 61, 92, 0.7);
+    --borderOne: #4c496d;
+    --borderTwo: #583950;
+    --sidebar: #343450;
+    --scrollbar: #64649b;
+    --codeBg: #1d1d30;
+    --placeholder: #a7a5c0;
+    --customInput: #3e3c55;
+    --lightSec: #666f99;
+  }
+
+  @font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro'), local('Roboto'), local('sans-serif'),
+      url('../fonts/sofia_pro_light_az-webfont.woff2') format('woff2'),
+      local('Sofia Pro'), local('Roboto'), local('sans-serif'),
+      url('../fonts/sofia_pro_light_az-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro'), local('Roboto'), local('sans-serif'),
+      url('../fonts/sofia_pro_regular_az-webfont.woff2') format('woff2'),
+      local('Sofia Pro'), local('Roboto'), local('sans-serif'),
+      url('../fonts/sofia_pro_regular_az-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro'), local('Roboto'), local('sans-serif'),
+      url('../fonts/sofia_pro_medium_az-webfont.woff2') format('woff2'),
+      local('Sofia Pro'), local('Roboto'), local('sans-serif'),
+      url('../fonts/sofia_pro_medium_az-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro'), local('Roboto'), local('sans-serif'),
+      url('../fonts/sofia_pro_semi_bold_az-webfont.woff2') format('woff2'),
+      local('Sofia Pro'), local('Roboto'), local('sans-serif'),
+      url('../fonts/sofia_pro_semi_bold_az-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro'), local('Roboto'), local('sans-serif'),
+      url('../fonts/sofia_pro_bold_az-webfont.woff2') format('woff2'),
+      local('Sofia Pro'), local('Roboto'), local('sans-serif'),
+      url('../fonts/sofia_pro_bold_az-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+@import './redoc.css';
+
+body {
+  @apply relative
+  font-body
+  text-body
+  bg-primary
+  text-white
+  font-normal
+  antialiased
+  overflow-x-hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar);
+}
+
+::selection {
+  background: var(--secondaryLight);
+  color: var(--primary);
+}
+
+.container {
+  max-width: calc(1128px + 2.5rem);
+  @apply relative
+  m-auto
+  px-5
+  h-full;
+}
+
+.preloader {
+  @apply bg-gradient z-[9999];
+}
+
+.page {
+  @apply relative overflow-hidden
+  h-full
+  mt-12
+  md:mt-0;
+}
+
+p {
+  @apply text-white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-white font-bold;
+}
+
+a:hover {
+  transition: all 0.2s ease-in-out;
+}
+
+a.text-secondary:focus,
+a.text-secondary:hover {
+  @apply text-secondaryLight !important;
+}
+
+a:hover,
+a:focus {
+  @apply text-secondaryLight;
+}
+
+a:active {
+  @apply text-white;
+}
+
+.blog-post-content {
+  h2 {
+    @apply text-3xl mb-8;
+  }
+  p {
+    @apply mb-8 text-lg leading-7 tracking-tightS;
+  }
+}

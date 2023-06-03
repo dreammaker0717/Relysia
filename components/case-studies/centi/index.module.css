@@ -1,0 +1,48 @@
+.base {
+  @apply pb-52;
+}
+
+.wrapper {
+  @apply flex flex-col-reverse justify-between
+  gap-8
+  mt-8
+  lg:mt-0
+  lg:flex-row
+  lg:gap-20;
+}
+
+.left {
+  @apply py-8 flex-1;
+}
+
+.right {
+  @apply relative
+  w-auto
+  px-0
+  md:px-40
+  md:mt-20
+  lg:px-0
+  lg:w-[31.5rem];
+}
+
+.p {
+  @apply text-par-s text-white my-8;
+}
+
+.img {
+  @apply flex z-10;
+}
+
+.circle {
+  z-index: -1;
+  @apply absolute inline-block
+  w-[340px]
+  -top-36
+  -right-32
+  md:w-[40%]
+  md:-top-36
+  md:right-0
+  lg:-top-36
+  lg:-right-24
+  lg:w-[347px];
+}

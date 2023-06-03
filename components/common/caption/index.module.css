@@ -1,0 +1,3 @@
+.base {
+  @apply inline-block p-2 rounded bg-pinkTransparent text-fourth leading-none;
+}

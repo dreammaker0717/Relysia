@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEI,WAFO,AAEN,MAAM,CAAA;EACH,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,OAAsB;CACjD;;AAGL,AAAA,eAAe,CAAA;EACX,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,MAAM;CACjB",
+    "sources": [
+        "GlobalNewDocsContainer.scss"
+    ],
+    "names": [],
+    "file": "GlobalNewDocsContainer.css"
+}

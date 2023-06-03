@@ -1,0 +1,17 @@
+.para {
+  font-family: Sofia Pro;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: -0.5px;
+  text-align: justify;
+}
+
+.heading {
+  @apply mt-5 mb-2 text-xl;
+}
+
+.heading-top {
+  @apply mt-5 mb-2 text-4xl;
+}

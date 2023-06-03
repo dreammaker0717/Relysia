@@ -1,0 +1,72 @@
+.base {
+  @apply relative rounded-default
+  bg-primary
+  px-8 py-3
+  leading-4
+  inline-flex
+  items-center
+  font-semibold
+  cursor-pointer
+  overflow-hidden
+  transition-all duration-300 ease-in-out
+  focus:outline-none;
+}
+
+.link {
+  @apply hover:text-white no-underline;
+}
+
+.primary {
+  @apply shadow-primaryButton z-0;
+}
+
+.gradientBg {
+  @apply bg-gradient text-white;
+}
+
+.gradientBg::after {
+  content: '';
+  @apply absolute top-0 left-0
+  w-full h-full
+  opacity-0
+  bg-gradientHover
+  transition-all duration-500 ease-in-out
+  z-5;
+}
+
+.gradientBg:hover::after {
+  opacity: 1;
+}
+
+.gradientBg span {
+  @apply relative z-10;
+}
+
+.secondary {
+  @apply bg-third
+
+  hover:bg-sHover;
+}
+
+.fat {
+  @apply py-4 items-end;
+}
+
+.noBox {
+  @apply font-normal bg-transparent p-0 rounded-none;
+}
+
+.small {
+  @apply py-2.5 px-4;
+}
+
+.outlined {
+  @apply border border-white;
+}
+
+.flat {
+  @apply flex  justify-center
+  rounded-2xl
+  w-full
+  px-0;
+}

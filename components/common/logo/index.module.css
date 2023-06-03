@@ -1,0 +1,11 @@
+.base {
+  @apply flex items-baseline;
+}
+
+.imgWrapper {
+  @apply w-5 md:w-7;
+}
+
+.text {
+  @apply inline-block ml-2 text-xl md:text-[1.8rem];
+}

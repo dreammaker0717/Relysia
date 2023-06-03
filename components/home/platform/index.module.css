@@ -1,0 +1,26 @@
+.platform {
+  @apply relative
+  mt-14
+  lg:mt-0;
+}
+
+.wrapper {
+  @apply grid
+  px-10
+  gap-8
+  lg:gap-44
+  r-min-lg:px-0;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+}
+
+.img {
+  @apply mb-7 w-full;
+}
+
+.title {
+  @apply font-bold text-lg leading-relaxed mb-1;
+}
+
+.p {
+  @apply text-white text-par-s tracking-tightS;
+}

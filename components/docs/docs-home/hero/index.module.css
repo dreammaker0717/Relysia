@@ -1,0 +1,23 @@
+.base {
+  /* @apply mb-[150px]  ; */
+}
+
+.left,
+.right {
+  @apply relative flex-1  w-full h-full;
+}
+
+.left {
+  @apply py-16;
+}
+
+.right {
+  @apply px-40 lg:px-0;
+}
+
+.imgLeftWrapper {
+  @apply relative w-full mt-8
+  flex justify-center
+  r-min-lg:justify-start
+  r-min-lg:left-[-75px];
+}

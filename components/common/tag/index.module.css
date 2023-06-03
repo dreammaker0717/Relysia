@@ -1,0 +1,8 @@
+.tag {
+  @apply bg-pinkTransparent text-xs
+  font-medium
+  py-1 px-2
+  mr-2
+  mb-4
+  rounded-2xl;
+}

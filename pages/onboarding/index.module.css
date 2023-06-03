@@ -1,0 +1,7 @@
+.label {
+    @apply text-white
+}
+
+.formGroup {
+    @apply flex flex-col
+}

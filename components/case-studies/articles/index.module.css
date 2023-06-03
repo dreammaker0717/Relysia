@@ -1,0 +1,14 @@
+.base {
+  @apply min-h-[75rem];
+}
+
+.blogs {
+  @apply grid gap-10 min-h-[101.75rem] auto-rows-max;
+  grid-template-columns: repeat(auto-fit, minmax(21.8rem, 1fr));
+}
+
+.cards {
+  @apply mt-20 mb-32 grid gap-10
+  lg:mb-0;
+  grid-template-columns: repeat(auto-fit, minmax(21.8rem, 1fr));
+}

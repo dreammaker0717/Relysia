@@ -1,0 +1,88 @@
+.base {
+  @apply relative
+  flex flex-col
+  w-full
+  bg-cardArticleBg
+  rounded-2xl
+  overflow-hidden
+  p-6
+  md:p-0;
+
+  &.horizontal {
+    @apply flex-col
+    p-6
+    md:flex-row md:p-0;
+
+    .imgWrapper,
+    .info {
+      @apply md:flex-1;
+    }
+
+    .imgWrapper {
+      @apply relative
+      h-[18.75rem]
+      rounded-lg
+      overflow-hidden
+      m-0
+      md:m-6
+      md:mr-0;
+    }
+
+    .p {
+      @apply h-auto min-h-0;
+    }
+  }
+}
+
+.img {
+  @apply object-cover;
+}
+
+.imgWrapper {
+  @apply relative w-full rounded-lg
+  overflow-hidden
+  h-[18.75rem]
+  md:h-[15.625rem]
+  md:rounded-none;
+}
+
+.info {
+  @apply py-8 px-0
+  flex flex-col flex-grow
+  md:px-5;
+}
+
+.title {
+  @apply text-xl font-bold leading-5 min-h-[2.5rem];
+}
+
+.p {
+  @apply text-par-s my-6
+  flex-1
+  line-clamp-7
+  md:h-[182px]
+  md:min-h-[182px];
+}
+
+.bottom {
+  @apply flex justify-between items-center;
+}
+
+.date {
+  @apply text-sm leading-none;
+}
+
+.read {
+  @apply flex items-baseline
+  leading-4 font-bold
+  transition-none;
+}
+
+.read span {
+  @apply mr-2;
+}
+
+.read:hover svg {
+  fill: var(--secondary);
+  @apply transition duration-200 ease-in-out;
+}

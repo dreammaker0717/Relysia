@@ -1,0 +1,1033 @@
+/* @import url('https://fonts.cdnfonts.com/css/sofia-pro'); */
+@font-face{
+  font-family:sofia pro;
+  font-style:normal;
+  font-weight:400;
+  src:local('Sofia Pro'),url('https://fonts.cdnfonts.com/s/14903/Sofia Pro Regular Az.woff') format('woff')
+}
+@font-face{
+  font-family:sofia pro;
+  font-style:italic;
+  font-weight:400;
+  src:local('Sofia Pro'),url('https://fonts.cdnfonts.com/s/14903/Sofia Pro Regular Italic Az.woff') format('woff')
+}
+@font-face{
+  font-family:sofia pro;
+  font-style:normal;
+  font-weight:250;
+  src:local('Sofia Pro'),url('https://fonts.cdnfonts.com/s/14903/Sofia Pro ExtraLight Az.woff') format('woff')
+}
+@font-face{
+  font-family:sofia pro;
+  font-style:normal;
+  font-weight:250;
+  src:local('Sofia Pro'),url('https://fonts.cdnfonts.com/s/14903/Sofia Pro UltraLight Az.woff') format('woff')
+}
+@font-face{
+  font-family:sofia pro;
+  font-style:italic;
+  font-weight:250;
+  src:local('Sofia Pro'),url('https://fonts.cdnfonts.com/s/14903/Sofia Pro ExtraLight Italic Az.woff') format('woff')
+}
+@font-face{
+  font-family:sofia pro;
+  font-style:italic;
+  font-weight:250;
+  src:local('Sofia Pro'),url('https://fonts.cdnfonts.com/s/14903/Sofia Pro UltraLight Italic Az.woff') format('woff')
+}
+@font-face{
+  font-family:sofia pro;
+  font-style:normal;
+  font-weight:300;
+  src:local('Sofia Pro'),url('https://fonts.cdnfonts.com/s/14903/Sofia Pro Light Az.woff') format('woff')
+}
+@font-face{
+  font-family:sofia pro;
+  font-style:italic;
+  font-weight:300;
+  src:local('Sofia Pro'),url('https://fonts.cdnfonts.com/s/14903/Sofia Pro Light Italic Az.woff') format('woff')
+}
+@font-face{
+  font-family:sofia pro;
+  font-style:normal;
+  font-weight:500;
+  src:local('Sofia Pro'),url('https://fonts.cdnfonts.com/s/14903/Sofia Pro Medium Az.woff') format('woff')
+}
+@font-face{
+  font-family:sofia pro;
+  font-style:italic;
+  font-weight:500;
+  src:local('Sofia Pro'),url('https://fonts.cdnfonts.com/s/14903/Sofia Pro Medium Italic Az.woff') format('woff')
+}
+@font-face{
+  font-family:sofia pro;
+  font-style:normal;
+  font-weight:600;
+  src:local('Sofia Pro'),url('https://fonts.cdnfonts.com/s/14903/Sofia Pro Semi Bold Az.woff') format('woff')
+}
+@font-face{
+  font-family:sofia pro;
+  font-style:italic;
+  font-weight:600;
+  src:local('Sofia Pro'),url('https://fonts.cdnfonts.com/s/14903/Sofia Pro Semi Bold Italic Az.woff') format('woff')
+}
+@font-face{
+  font-family:sofia pro;
+  font-style:normal;
+  font-weight:700;
+  src:local('Sofia Pro'),url('https://fonts.cdnfonts.com/s/14903/Sofia Pro Bold Az.woff') format('woff')
+}
+@font-face{
+  font-family:sofia pro;
+  font-style:italic;
+  font-weight:700;
+  src:local('Sofia Pro'),url('https://fonts.cdnfonts.com/s/14903/Sofia Pro Bold Italic Az.woff') format('woff')
+}
+@font-face{
+  font-family:sofia pro;
+  font-style:normal;
+  font-weight:900;
+  src:local('Sofia Pro'),url('https://fonts.cdnfonts.com/s/14903/Sofia Pro Black Az.woff') format('woff')
+}
+@font-face{
+  font-family:sofia pro;
+  font-style:italic;
+  font-weight:900;
+  src:local('Sofia Pro'),url('https://fonts.cdnfonts.com/s/14903/Sofia Pro Black Italic Az.woff') format('woff')
+}
+
+body {
+  min-width: 400px;
+}
+
+.btnDefaultColor {
+  color: #212529 !important;
+}
+
+.btnDefaultColor:hover {
+  color: #ffffff !important;
+}
+.MuiPaper-elevation1 {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
+}
+.editIcon {
+  color: #44ce6f;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  outline: 0 !important;
+  cursor: pointer;
+}
+.editIcon:hover {
+  color: #f48665;
+  transform: translateY(-5px);
+}
+.box {
+  cursor: pointer;
+}
+.btn-small {
+  padding: 10px 25px;
+  font-size: 12px;
+}
+.mobile-nav-only {
+  display: none;
+}
+.show-pointer {
+  cursor: pointer !important;
+}
+
+.anchor-more-class {
+  color: #000 !important;
+}
+.anchor-more-class:hover {
+  text-decoration: underline;
+}
+.nav-logo-con {
+  width: 20%;
+}
+.nav-logo-ele {
+  width: 50%;
+}
+
+.dbTag {
+  color: #9fa1a2;
+  font-style: italic;
+  font-size: 10px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.opvals-con {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0px auto !important;
+  margin-top: 10px !important;
+}
+.opvals-con li div {
+  margin-bottom: 6px;
+  text-align: center;
+  width: 100%;
+}
+.lg-margin-top {
+  margin-top: 25px;
+}
+.dash-links li {
+  cursor: pointer;
+}
+.dash-links li:hover {
+  color: #f48665;
+}
+.custom-overwrite-iconbtn button {
+  cursor: pointer;
+  background-color: transparent !important;
+  text-shadow: none;
+  text-rendering: auto;
+  box-shadow: none !important;
+  padding: 4px !important;
+  color: rgba(0, 0, 0, 0.54) !important;
+  float: none !important;
+  width: auto !important;
+  height: auto !important;
+  border-radius: 50% !important;
+  border: 0px !important;
+  margin: 0px !important;
+  transition: none !important;
+}
+
+.querybtnDisabled:disabled,
+.querybtnDisabled[disabled] {
+  background-color: #cccccc !important;
+  color: #666666 !important;
+}
+.customBGTextfield {
+  background-color: #eeeeee !important;
+  outline: none !important;
+}
+.icon-btn-no-outline button {
+  outline: none !important;
+}
+svg:focus {
+  outline: none !important;
+}
+.settings-tab2 h6 {
+  font-size: 13px;
+  margin: 0px;
+  margin-top: 10px;
+}
+.settings-tab2 p {
+  margin-left: 10px;
+}
+
+.general-settings h6 {
+  font-size: 13px;
+  margin: 0px;
+  margin-top: 20px;
+}
+.general-settings p {
+  margin-left: 10px;
+  font-size: 15px;
+  margin-top: 0px !important;
+}
+.page-head1 h2 {
+  font-weight: 600;
+  font-size: 24px;
+}
+.settings-con1 {
+  margin-left: 25px;
+}
+.normal-button button {
+  transition: 0.5s;
+  outline: none !important;
+}
+.docs-head {
+  margin: 0px;
+  font-size: 23px;
+  font-weight: 500;
+}
+.docs-head2 {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.docs-list li {
+  display: list-item !important;
+  list-style: none;
+  color: #f48665;
+  cursor: pointer;
+}
+.docs-list li a {
+  color: #f48665;
+}
+.docs-list li a:hover {
+  text-decoration: underline;
+}
+
+.docs-list li::before {
+  content: '\2022'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #000000; /* Change the color */
+  font-weight: bolder; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.docs-list {
+  padding-inline-start: 40px !important;
+  margin-block-start: 10px !important;
+}
+
+.docs-list2 {
+  padding-inline-start: 40px !important;
+  margin-block-start: 0px !important;
+}
+.docs-list2 li {
+  display: list-item !important;
+  list-style-type: circle;
+}
+
+.docs-bold {
+  color: #44ce6f !important;
+}
+.docs-footer h6 {
+  font-size: 12px;
+}
+.docs-footer-next {
+  margin-left: auto;
+}
+.link {
+  color: #f48665 !important;
+  cursor: pointer;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.submeun-anchor a {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.last-one-docs {
+  margin-right: auto !important;
+}
+.generalSet-con1 {
+  width: 100%;
+  padding-right: 15px;
+}
+.generalSet-con2 {
+  width: 100%;
+  height: 100%;
+  margin-left: 10px;
+}
+.generalSet-con-main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: stretch;
+}
+
+.sett-gen-nav-nam p {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+#db-name-popper,
+#db-details-popper {
+  z-index: 10;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.popHeadMain {
+  font-size: 14px;
+}
+
+.poper-dbname {
+  padding: 20px 20px;
+  min-width: 550px;
+  border-radius: 10px;
+}
+
+.hubspot-form-con {
+  padding-left: 100px;
+}
+
+.hubspot-img-con {
+  padding-bottom: 70px;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hsForm_bd3f8434-9472-4c1e-ba2b-c22ad171e03b {
+  text-align: center;
+}
+
+.fix-height-srvbox {
+  height: 260px;
+}
+
+.helper-test-settings {
+  color: #6084a4;
+}
+.wallet-view-con {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-height: 80vh;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.steps-text {
+  width: 350px;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transition: width 0.5s ease-in-out, opacity 0.4s ease-in-out;
+  -moz-transition: width 0.5s ease-in-out, opacity 0.4s ease-in-out;
+  -o-transition: width 0.5s ease-in-out, opacity 0.4s ease-in-out;
+  transition: width 0.5s ease-in-out, opacity 0.4s ease-in-out;
+}
+.steps-text-hide {
+  opacity: 0;
+  max-width: 0px;
+}
+.steps-textmint {
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transition: width 0.5s ease-in-out, opacity 0.4s ease-in-out;
+  -moz-transition: width 0.5s ease-in-out, opacity 0.4s ease-in-out;
+  -o-transition: width 0.5s ease-in-out, opacity 0.4s ease-in-out;
+  transition: width 0.5s ease-in-out, opacity 0.4s ease-in-out;
+}
+
+.wallet-con2 {
+  width: 100%;
+  padding: 0px 20px;
+}
+.wallet-head {
+  color: rgba(54, 54, 99, 1);
+}
+.wallet-head22 {
+  color: rgba(54, 54, 99, 1);
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Sofia Pro', sans-serif;
+}
+.wallet-head h1 {
+  font-size: 24px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.balance-Head {
+  margin-top: 30px;
+}
+.balance-Head h1 {
+  font-size: 40px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 0px;
+}
+.balance-Head p {
+  color: #363663;
+  font-weight: 500;
+}
+.head-type2 {
+  color: #363663;
+  font-weight: 500;
+}
+.fontSofiaPro {
+  font-family: 'Sofia Pro', sans-serif;
+}
+.main1-color {
+  color: #f48665;
+}
+.wallet-btns {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.wallet-btns a {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.wallet-btns a:active {
+  background-color: red !important;
+}
+.deposit-dialog-con h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.refresh-wallet-con {
+  position: absolute;
+  margin-left: 60px;
+  margin-top: -18px;
+}
+.refresh-wallet-con button {
+  outline: none;
+}
+
+.refresh-token-con {
+  position: absolute;
+  margin-left: 30px;
+  margin-top: -18px;
+}
+.refresh-token-con button {
+  outline: none;
+}
+
+.transaction-gr-summary {
+  margin: 15px 0px;
+  margin-bottom: 50px;
+}
+.pov-price {
+  color: #44ce6f;
+}
+.neg-price {
+  color: #f48665;
+}
+
+.tabViewCon {
+  margin: 30px 20px 30px 20px;
+}
+
+.more-top-padding {
+  padding-top: 80px;
+}
+
+.token-view-con {
+  margin-top: 30px;
+}
+.token-ele {
+  margin: 10px 25px 15px 10px;
+}
+.stas-token-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.token-item {
+  display: flex;
+  align-items: center;
+}
+.token-item-2 {
+  margin-left: 15px;
+}
+.token-item-2 h5 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+}
+.token-item-2 p {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+.tokens-count {
+  margin-left: auto;
+}
+/* .stas-tokens-count {
+  margin-left: auto;
+} */
+.mint-btn {
+  margin-left: auto;
+  margin-right: 25px;
+}
+.custom-dialog {
+  z-index: 1000 !important;
+}
+
+.activity-box {
+  display: flex;
+  align-items: center;
+  padding: 15px !important;
+  border: 1px solid #c5c2c2;
+  margin: 0px 5px !important;
+  width: 48%;
+  border-radius: 15px !important;
+  min-width: 200px;
+  margin-bottom: 14px !important;
+}
+.activity-box-dollarbal {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 800;
+  margin: 0;
+  font-size: 20px;
+}
+.activity-box-bsvbal {
+  font-weight: 500;
+  margin: 0;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  top: -5px;
+}
+.activities-box-con {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.activity-box-tx {
+  float: right;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #363663;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #363663;
+  font-weight: 600;
+}
+.date-view-activity {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+.sidebar-seperator {
+  height: 1px;
+  width: 100%;
+  border-top: 1px solid #f48665;
+  position: relative;
+  top: -7px;
+}
+.sidebar-logo {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  background-color: transparent;
+}
+.wallet-sele-icon {
+  padding: 15px !important;
+  margin: 10px !important;
+  border: 1px solid #c5c2c2;
+  box-shadow: none !important;
+}
+.withdraw-icons-con {
+  width: 80%;
+  margin-top: 10px;
+}
+.withdraw-amount-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.withdraw-amount-con .input-group {
+  width: 44%;
+}
+.withdraw-amount-con .with-hori-icon {
+  margin: 0px 15px;
+}
+.withdrawl-tab-con button {
+  outline: none;
+}
+.ph-auth-input {
+  width: 98%;
+  margin: 10px auto;
+}
+.ph-auth-input input {
+  height: 50px;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #0e314c;
+  border: 1px solid #eeeeee;
+  border-radius: 0;
+  background: #eeeeee;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none !important;
+}
+
+.ph-auth-input input:focus {
+  border-color: #f48665 !important;
+  background-color: #ffffff;
+}
+.ph-auth-input select {
+  font-family: inherit;
+  background-color: transparent;
+  padding: 10px 10px 10px 0;
+  font-size: 18px;
+  border-radius: 0;
+  border: none !important;
+  outline: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+/* Remove focus */
+
+*:focus {
+  outline: none !important;
+}
+.ph-auth-input select:focus {
+  outline: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+.PhoneInputCountry {
+  border-bottom: 1px solid #eeeeee;
+}
+
+:root {
+  --PhoneInputCountryFlag-height: 1.5em;
+  --PhoneInput-color--focus: #f48665;
+  --PhoneInputCountrySelectArrow-width: 0.5em;
+  --PhoneInputCountrySelect-marginRight: 0.8em;
+}
+.recaptcha-div div {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 8px;
+}
+
+.disabled-btn {
+  background-color: #949494 !important;
+  box-shadow: none !important;
+}
+.disabled-btn:hover,
+.disabled-btn:focus,
+.disabled-btn:active {
+  color: #ffffff;
+  background: #949494;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.disabled-btn::after,
+.disabled-btn::before {
+  background: #949494;
+}
+
+.alert-old-tran button {
+  outline: none !important;
+  width: 50%;
+}
+.alert-old-tran {
+  width: 50%;
+}
+.fade {
+  z-index: 10000 !important;
+}
+
+.stas-view-con {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.stas-head h1 {
+  font-size: 20px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.stas-head {
+  display: flex;
+  align-items: center;
+}
+.stas-tokenDetails {
+  margin-top: 25px;
+}
+.fix-height-tokencon {
+}
+
+.details-box-con {
+  width: 100%;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+.details-box-head {
+  background-color: #171717;
+  padding: 12px;
+  font-size: 16px;
+  border-bottom: 1px solid #000000;
+}
+.details-box-details {
+  padding: 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.details-box-details .box {
+  width: 49%;
+}
+.details-box-item {
+  width: 100%;
+  margin-right: 10px;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+.details-box-item p {
+  margin: 0px;
+}
+
+.details-box-item .details-title {
+  color: rgb(0, 0, 0);
+  margin-right: 10px;
+}
+
+.details-box-item .details-val {
+  word-break: break-all;
+  color: rgb(96, 96, 96);
+}
+
+.details-box-item .details-val:hover {
+  color: #f48665;
+}
+
+.details-box-tran-con {
+  margin-bottom: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.details-box-tran-con p {
+  word-break: break-all;
+  margin: 0px;
+  cursor: pointer;
+  color: #000;
+}
+.details-box-tran-con p:hover {
+  text-decoration: underline;
+  color: #f48665;
+}
+
+.dots-loader {
+  margin: 0 auto;
+  width: 60px;
+  aspect-ratio: 4;
+  --_g: no-repeat radial-gradient(circle closest-side, #646599 90%, #0000);
+  background: var(--_g) 0% 50%, var(--_g) 50% 50%, var(--_g) 100% 50%;
+  background-size: calc(100% / 3) 100%;
+  animation: d7 1s infinite linear;
+}
+
+.c-otp-box .c-otp-input {
+  width: 48px !important;
+  height: 45px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.c-otp-input {
+  background: #ffffff !important;
+  border: 2px solid #666666 !important;
+  box-sizing: border-box !important;
+  border-radius: 5px !important;
+}
+
+@keyframes d7 {
+  33% {
+    background-size: calc(100% / 3) 0%, calc(100% / 3) 100%, calc(100% / 3) 100%;
+  }
+  50% {
+    background-size: calc(100% / 3) 100%, calc(100% / 3) 0%, calc(100% / 3) 100%;
+  }
+  66% {
+    background-size: calc(100% / 3) 100%, calc(100% / 3) 100%, calc(100% / 3) 0%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .activity-box {
+    width: 95%;
+  }
+  .activities-box-con {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .nav-logo-ele {
+    width: 80%;
+  }
+  .tabViewCon {
+    margin: 20px 10px 20px 10px;
+  }
+  .alert-old-tran {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ph-auth-input {
+    width: 100%;
+    margin: 10px auto;
+  }
+  .withdraw-icons-con {
+    width: 100%;
+  }
+  .nav-logo-con {
+    width: 30%;
+  }
+  .nav-logo-ele {
+    width: 100%;
+  }
+  .more-top-padding {
+    padding-top: 80px !important;
+  }
+  .settings-con1 {
+    margin-left: 15px;
+  }
+  .docs-footer-next {
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .docs-footer {
+    min-width: 51%;
+  }
+  .poper-dbname {
+    min-width: 300px;
+  }
+  .wallet-con1 {
+    width: 100%;
+    padding: 0px 10px;
+    height: min-content;
+    /* border-right: 0px solid #dcdbdb; */
+  }
+  .wallet-con2 {
+    width: 100%;
+    padding: 0px 10px;
+    margin-top: 25px;
+  }
+  .customize-con {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .tabViewCon {
+    margin: 15px 10px 15px 10px;
+  }
+  .alert-old-tran {
+    width: 100%;
+  }
+  .details-box-item {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+@media only screen and (min-width: 767px) {
+  .alert-old-tran button {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .nav-logo-con {
+    width: 40%;
+  }
+
+  .more-top-padding {
+    padding-top: 70px !important;
+  }
+  .withdraw-amount-con {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  .withdraw-amount-con .input-group {
+    width: 80%;
+  }
+  .withdraw-amount-con .with-hori-icon {
+    margin: 10px 15px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .md-margin-top {
+    margin-top: 25px;
+  }
+  .hubspot-form-con {
+    padding-left: 0px;
+    max-width: 500px !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hubspot-img-con {
+    margin-bottom: 0px;
+    min-height: 0px;
+  }
+}
+
+/* //antd changes */
+.ant-menu-item:hover,
+.ant-menu-item-active,
+.ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-submenu-active,
+.ant-menu-submenu-title:hover {
+  color: #f48665;
+}
+.ant-menu-item-selected {
+  color: #ffffff !important;
+}
+/* .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #f48665;
+} */
+.ant-layout-sider {
+  background-color: #ffffff !important;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #f48665 !important;
+}
+
+.ant-menu-item:active,
+.ant-menu-submenu-title:active {
+  background: #f4866563;
+}
+
+.ant-upload.ant-upload-select-picture-card:hover {
+  border-color: #f48665;
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+  .wallet-content{
+    text-align: center;
+  }
+  .cross-icon{
+    height: 7.5vh !important;
+  }
+  .your-wallet{
+    color: rgb(133, 139, 173);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .user-profile{
+    justify-content: space-between !important;
+    padding: 30px 5px !important;
+  }
+}
+
+@media (max-width: 767px) and (orientation: portrait) {
+  .user-profile{
+    justify-content: space-around !important;
+  }
+  .cross-icon{
+    height: 5.6vh !important;
+  }
+  .your-wallet{
+    color: rgba(133, 139, 173, 1);
+    width: '100%',
+  }
+}
+@media (min-width: 768px) {
+  .your-wallet{
+    display: flex;
+  }
+}
+.kerning-adjusted {
+  letter-spacing: 0.025em; 
+}

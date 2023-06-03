@@ -1,0 +1,59 @@
+.hero {
+  @apply relative
+  w-[100vw]
+  lg:h-[50rem]
+  md:h-[60rem]
+  h-[60rem]
+  mt-1
+  mb-20;
+}
+
+.wrapper {
+  @apply flex
+  h-full
+  w-full
+  lg:flex-row
+  lg:justify-between
+  flex-col-reverse
+  justify-around
+  items-center
+  r-min-lg:mt-0;
+}
+
+.heroLeft {
+  @apply relative 
+  max-w-[25.875rem] 
+  -mt-20 
+  md:-mt-10 
+  lg:-mt-5;
+}
+
+.heroRight {
+  @apply relative
+  z-10;
+}
+
+.p {
+  @apply text-par 
+  text-white my-8;
+  letter-spacing: -0.99px;
+}
+
+.imgWrapper {
+  @apply md:-mt-8 
+  lg:-mt-20 
+  sm:w-[450px] 
+  sm:h-[440px] 
+  md:w-[500px] 
+  md:h-[485] 
+  lg:w-[580px] 
+  lg:h-[535];
+}
+
+.actions {
+  @apply mb-8;
+}
+
+.actions button {
+  @apply mr-4 md:mr-8;
+}

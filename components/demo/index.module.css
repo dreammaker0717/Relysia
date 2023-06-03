@@ -1,0 +1,40 @@
+.section {
+  @apply grid grid-cols-1 gap-14
+  min-h-[675px]
+  md:relative;
+}
+
+.sectionTop {
+  @apply mb-20
+  mt-14
+  md:mt-6
+  md:mb-0
+  md:grid-cols-two-onehalf
+  lg:-left-12;
+}
+
+.sectionBottom {
+  @apply mb-28 md:grid-cols-onehalf-two lg:-right-14;
+}
+
+.sectionImageWr {
+  @apply relative;
+}
+
+.sectionImage {
+  @apply object-cover;
+}
+
+.infoWrapper {
+  @apply flex items-center row-start-1
+  md:row-start-auto;
+}
+
+.info {
+  @apply w-full md:max-w-[450px];
+}
+
+.p {
+  @apply text-lg leading-6
+  my-6;
+}

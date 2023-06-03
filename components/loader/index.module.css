@@ -1,0 +1,69 @@
+.loader {
+  position: relative;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.164062) 38.73%,
+    rgba(255, 255, 255, 0.0266047) 82.22%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  width: 240px;
+  height: 240px;
+  margin: 0 auto;
+}
+.spinner {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 50%;
+
+  & .path {
+    stroke: rgb(74, 179, 255);
+    stroke-linecap: round;
+    stroke-dasharray: 210;
+    stroke-dashoffset: 110;
+    transform: rotate(25deg);
+    animation: dash 1.6s ease-in-out infinite;
+    transform-origin: center;
+  }
+
+  & .path1 {
+    stroke: rgba(74, 179, 255, 0.2);
+    stroke-linecap: round;
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 210;
+    stroke-dashoffset: 110;
+    transform: rotate(25deg);
+  }
+
+  30% {
+    stroke-dasharray: 210;
+    stroke-dashoffset: 100;
+    transform: rotate(75deg);
+  }
+  60% {
+    stroke-dasharray: 210;
+    stroke-dashoffset: 100;
+    transform: rotate(-25deg);
+  }
+
+  80% {
+    stroke-dasharray: 310;
+    stroke-dashoffset: 100;
+  }
+
+  100% {
+    stroke-dasharray: 310;
+    stroke-dashoffset: -200;
+    transform: rotate(500deg);
+  }
+}

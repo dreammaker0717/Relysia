@@ -1,0 +1,249 @@
+.mnemonicfullscreen {
+  position: absolute;
+  background: linear-gradient(111.07deg, #e70060 10.57%, #fc8f0c 105.27%);
+  z-index: 1587878;
+  width: 100vw;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+}
+#end-date-input-button {
+  display: none !important;
+}
+#start-date-input-button {
+  border: none;
+}
+.infinitRotate {
+  animation: rotation 110s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.alertBanner_dashboard_container {
+  position: sticky;
+  height: min-content;
+  width: 100%;
+  z-index: 2000;
+  background: white;
+  color: 'white';
+}
+.alertBanner_dashboard {
+  /* background:radial-gradient(circle, rgba(255,170,117,1) 0%, rgba(255,153,102,1) 100%) ; */
+  background: linear-gradient(
+    113deg,
+    rgba(231, 0, 96, 1) 0%,
+    rgba(252, 143, 12, 1) 100%
+  );
+  width: 100%;
+  position: relative;
+  text-align: center;
+
+  height: 100%;
+  box-shadow: 0px 3px 15px rgba(151, 98, 65, 0.3);
+  transition: all 300ms cubic-bezier(0.335, 0.01, 0.03, 1.36);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: 'white';
+}
+.alertBanner_dashboard:hover {
+  box-shadow: 0px 3px 15px rgba(151, 98, 65, 0.7);
+}
+.sidebarCardContainerGrid {
+  display: flex;
+  flex-direction: column;
+  transition: all 300ms cubic-bezier(0.335, 0.01, 0.03, 1.36);
+  cursor: pointer;
+  aspect-ratio: 1/1;
+  align-items: center;
+  justify-content: space-between;
+}
+.hover-create-wallet-steps1 {
+  background: white;
+}
+.wallet-create-input {
+  padding-left: 38px;
+  padding-right: 5px;
+
+  height: 48px;
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid rgba(65, 124, 241, 0.05);
+  z-index: 10;
+}
+
+.wallet-create-input-walletName {
+  background: url('https://firebasestorage.googleapis.com/v0/b/vaionexdev.appspot.com/o/wallet_icons%2Finputwallet.svg?alt=media')
+      no-repeat 1% 50%,
+    rgba(65, 124, 241, 0.05);
+}
+.wallet-create-input:hover {
+  border: 1px solid rgba(65, 124, 241, 0.5);
+}
+.wallet-create-input-password {
+  background: url('https://firebasestorage.googleapis.com/v0/b/vaionexdev.appspot.com/o/wallet_icons%2Finputwallet.svg?alt=media')
+      no-repeat 1% 50%,
+    rgba(65, 124, 241, 0.05);
+}
+.hover-create-wallet-steps1:hover {
+  transform: translateX(15px);
+  background: rgba(65, 65, 241, 0.3);
+}
+.WalletsCreateIcon {
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  transition: all 300ms cubic-bezier(0.335, 0.01, 0.03, 1.36);
+  cursor: pointer;
+  aspect-ratio: 1/1;
+  align-items: center;
+  justify-content: center;
+}
+.WalletsCreateIcon:hover {
+  background-color: rgba(65, 65, 241, 0.1);
+}
+.WalletsIconsContainers {
+  box-shadow: 0px 15px 30px rgba(254, 44, 61, 0.1);
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  transition: all 30ms cubic-bezier(0.335, 0.01, 0.03, 1.36);
+  aspect-ratio: 1/1;
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.sidebarCardText {
+  transition: all 300ms cubic-bezier(0.335, 0.01, 0.03, 1.36);
+  text-align: center;
+  padding-top: 8%;
+  text-overflow: ellipsis;
+}
+.sidebarCardGrid {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  transition: all 30ms cubic-bezier(0.335, 0.01, 0.03, 1.36);
+  aspect-ratio: 1/1;
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.walletSvgContainer {
+  border-radius: 17px;
+  position: absolute;
+  top: 1.5%;
+  left: 1.5%;
+  height: 97%;
+  width: 97%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.walletSvgContainer2 {
+  border-radius: 8px;
+  display: flex;
+  /* justify-content: center; */
+  background-color: white;
+  padding: 5px
+}
+.walletSvg {
+  height: 35px;
+  width: 35px;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+.walletSvg:hover {
+  transform: scale(1.1);
+  filter: brightness(90%) invert(0.2) saturate(4);
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.svgIconsContainerSidebar {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.svGonSidebar {
+
+  position: relative;
+  transition: all 0.2s linear;
+  width: 100%;
+  height: 100%;
+
+}
+.svGonSidebar22 svg {
+  width:  100% !important;
+  height: 100% !important;
+}
+.svGonSidebar svg {
+  width:  100% !important;
+  height: 100% !important;
+}
+.svGonSidebar22 {
+  position: absolute;
+  transition: all 0.2s linear;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.activesvG {
+  z-index: 10;
+  opacity: 1;
+}
+.activesvG2 {
+  z-index: 10;
+  opacity: 0;
+}
+.nonactivesvG2 {
+  z-index: 1;
+  opacity: 1;
+}
+.activesvG2:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+.nonactivesvG2:hover {
+  transform: scale(1.05);
+  opacity: 0;
+}
+.nonactivesvG {
+  z-index: 1;
+  opacity: 1;
+}
+.activesvG:hover {
+  filter: brightness(90%) hue-rotate(35deg);
+  transform: scale(1.05);
+  /* opacity: 0; */
+}
+.nonactivesvG:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+.menuUserDashboard {
+  top: 20%;
+  position: fixed;
+  background: #ac6e734b;
+  border-end-end-radius: 15px;
+  border-top-right-radius: 15px;
+  border: 0px;
+  max-width: fit-content;
+}
+.menuUserDashboard:hover {
+  background: #b1797e;
+  /* background-color: #a350820a; */
+}

@@ -1,0 +1,52 @@
+.brandCard{
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 3rem;
+  margin: auto 80px;
+  position: relative;
+  top: -45px;
+}
+.brandCardP{
+  text-align: center;
+  color: #2e2e47;
+}
+.brandCardDFlex{
+  display: flex;
+  justify-content: center;
+}
+.brandCardBrand{
+  padding: 0.8rem;
+  margin-right: 1.2rem;
+}
+.brandCardBrandLast{
+  padding: 0.8rem;
+}
+.secondLayerCard{
+  margin-top: -51px;
+  padding:25px;
+  opacity: 0.1;
+}
+
+@media (max-width: 1100px) {
+  .secondLayerCard {
+    margin-top: -65px !important;
+  }
+  .thirdLayerCard {
+    margin-top: -110px !important;
+  }
+  .brandCard {
+    top: -10px !important;
+  }
+}
+
+.thirdLayerCard{
+  margin-top: -94px;
+  padding:25px;
+  opacity: 0.1;
+}
+@media (max-width:1100px) {
+  .brandCard{
+    padding: 2rem;
+    margin: auto 40px;
+  }
+}

@@ -1,0 +1,10 @@
+.shadow-box:hover {
+  -webkit-box-shadow: 0px 5px 5px #d2cfcf;
+          box-shadow: 0px 5px 5px #d2cfcf;
+}
+
+.page-container {
+  width: 60%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=GlobalNewDocsContainer.css.map */

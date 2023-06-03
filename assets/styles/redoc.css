@@ -1,0 +1,158 @@
+#redoc-container {
+  h1,
+  h2 {
+    @apply text-white;
+  }
+
+  h1 {
+    @apply uppercase;
+  }
+
+  h2 {
+    @apply capitalize;
+  }
+
+  h5 {
+    @apply text-gray-400;
+
+    span {
+      @apply text-gray-100;
+    }
+  }
+
+  a {
+    @apply text-relPink;
+  }
+
+  .api-content {
+    h3 {
+      @apply mt-6;
+    }
+    & > div {
+      &::after {
+        @apply border-borderOne;
+      }
+    }
+
+    table .last.expanded + tr table .last.expanded + tr td div {
+      @apply bg-[#2e2e47];
+    }
+
+    table td[title] + td {
+      @apply break-all;
+    }
+
+    table tr td:nth-child(2) {
+      @apply border-white border-opacity-10;
+    }
+
+    .react-tabs__tab-list {
+      @apply mt-3 mb-2;
+
+      li[aria-controls].react-tabs__tab--selected {
+        @apply text-primary;
+      }
+    }
+
+    div[role='tabpanel'] > div > div > span {
+      @apply font-bold text-[10px]
+      -top-3
+      left-2
+      px-1;
+    }
+
+    div[role='tabpanel'] > div > div > :not(div:first-child) {
+      @apply bg-white bg-opacity-5;
+    }
+
+    button:not([aria-label='expand properties']) {
+      @apply bg-white bg-opacity-10 border-none
+
+      focus:outline-none
+      focus:shadow-none;
+
+      & + div[aria-hidden] {
+        @apply top-11;
+      }
+    }
+
+    div[data-section-id] {
+      div div + div div div[aria-hidden] {
+        @apply bg-sHover2;
+      }
+
+      div div + div div div[aria-hidden] div div[role='button'] div {
+        @apply bg-codeBg text-gray-500 border-gray-500;
+      }
+
+      button {
+        @apply flex items-center;
+
+        span {
+          @apply ml-2;
+        }
+      }
+
+      button[aria-label='expand properties'] {
+        @apply inline-flex;
+
+        span {
+          @apply ml-0;
+        }
+      }
+
+      .react-tabs__tab-panel {
+        @apply bg-codeBg;
+
+        button {
+          display: initial;
+          @apply text-sm;
+        }
+
+        ::-webkit-scrollbar-track {
+          @apply bg-sidebar rounded-md;
+        }
+      }
+
+      .redoc-json button {
+        @apply flex items-center;
+      }
+    }
+  }
+
+  .menu-content {
+    .-depth1 {
+      @apply uppercase font-semibold;
+    }
+    .-depth2 {
+      @apply text-sm font-normal capitalize;
+    }
+
+    label[role='menuitem'] {
+      @apply flex items-center
+      hover:bg-white
+      hover:bg-opacity-5
+      hover:text-white;
+
+      &.active {
+        @apply bg-white bg-opacity-5 text-secondaryLight
+
+        hover:text-secondaryLight;
+      }
+
+      span {
+        &[type='get'] {
+          @apply bg-gray-500;
+        }
+        &[type='post'] {
+          @apply bg-gray-900;
+        }
+        &[type] {
+          @apply inline-flex items-center justify-center
+          h-6 leading-none
+          mt-0 mr-3;
+        }
+      }
+    }
+  }
+}

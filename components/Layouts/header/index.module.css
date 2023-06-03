@@ -1,0 +1,148 @@
+.header {
+  @apply relative bg-transparent z-50 min-h-[5.5rem];
+}
+.headerWhite {
+  @apply relative bg-white text-black z-50 min-h-[5.5rem];
+}
+
+.headerApi {
+  @apply flex items-center justify-between
+  px-6
+  min-h-[5.5rem]
+  border-b-2 border-borderOne
+  bg-primary
+  relative
+  z-5;
+}
+.headermobile {
+  @apply bg-primary;
+}
+
+.navItem {
+  @apply relative
+  inline-block
+  w-14
+  text-center
+  py-8 mr-3 last:mr-0
+  hover:text-white lg:mr-16;
+}
+.navItemWhite {
+  @apply relative
+  inline-block
+  w-14
+  text-center
+  py-8 mr-16 last:mr-0
+  hover:text-red-700;
+}
+
+.navItemWhite:hover::before {
+  @apply opacity-100;
+}
+
+.navItemWhite::before {
+  content: '';
+  @apply absolute top-0 left-0
+  bg-gradient
+  w-full
+  h-1.5
+  rounded-b-sm
+  /* h-1.5 */
+  transition-all duration-300 ease-in-out
+  opacity-0;
+}
+
+.navItemWhite.active::before {
+  @apply opacity-100;
+}
+/* /// */
+
+.navItem:hover::before {
+  @apply opacity-100;
+}
+
+.navItem::before {
+  content: '';
+  @apply absolute top-0 left-0
+  bg-gradient
+  w-full
+  rounded-b-sm
+  h-1.5
+  transition-all duration-300 ease-in-out
+  opacity-0;
+}
+
+.navItem.active::before {
+  @apply opacity-100;
+}
+
+.mobileHeaderItem {
+  @apply flex-1;
+}
+
+.mobileLogo {
+  @apply flex justify-center;
+}
+
+.mobileHeaderItemLast {
+  @apply flex justify-end;
+}
+
+.navItemMobile {
+  @apply relative
+  inline-block
+  w-full
+  h-full
+  text-center
+
+  hover:text-white;
+}
+.navItemWhiteMobile {
+  @apply relative
+  inline-block
+  h-full
+  w-full
+  text-center
+  hover:text-red-700;
+}
+
+.navItemWhiteMobile:hover::before {
+  @apply opacity-100;
+}
+
+.navItemWhiteMobile::before {
+  content: '';
+  @apply absolute top-0 left-0
+  bg-gradient
+  w-1.5
+  h-full
+  rounded-b-sm
+  transition-all duration-300 ease-in-out
+  opacity-0;
+}
+
+.navItemWhiteMobile.active::before {
+  @apply opacity-100;
+}
+/* /// */
+
+.navItemMobile:hover::before {
+  @apply opacity-100;
+}
+
+.navItemMobile::before {
+  content: '';
+  @apply absolute top-0 left-0
+  bg-gradient
+  w-1.5
+  rounded-b-sm
+  h-full
+  transition-all duration-300 ease-in-out
+  opacity-0;
+}
+
+.navItemMobile.active::before {
+  @apply opacity-100;
+}
+.navItemWhiteMobile.active {
+  @apply bg-gray-100;
+}

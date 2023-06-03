@@ -1,0 +1,12 @@
+.base {
+  @apply w-52 h-48 mt-8 flex flex-col justify-between
+  md:h-44;
+}
+
+.title {
+  @apply text-white font-bold;
+}
+
+.p {
+  @apply text-par-s text-white mb-5;
+}

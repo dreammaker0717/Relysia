@@ -1,0 +1,64 @@
+.base {
+  @apply relative
+  /* text-lightSec */
+
+  text-white
+  flex justify-end;
+  &:hover .content {
+    @apply flex flex-col;
+    transition-delay:1s;
+  }
+}
+
+.info {
+  @apply flex items-center
+  pl-1.5
+  py-1.5
+  pr-3
+  rounded-xl
+  bg-third
+  cursor-pointer
+  min-w-[6rem];
+
+  &.light {
+    @apply bg-gray-200 text-lightSec;
+  }
+}
+
+.img {
+  @apply w-7 h-7
+  rounded-md
+  mr-3
+  object-cover;
+
+  &.light {
+    @apply bg-gray-400;
+  }
+}
+
+.content {
+  @apply absolute top-11
+  hidden
+  bg-placeholder
+  overflow-hidden
+  rounded-xl
+  shadow-dropdown-shadow
+  text-white
+  min-w-[12.5rem];
+
+  &.light {
+    @apply bg-white text-lightSec;
+  }
+
+  li {
+    @apply w-full;
+  }
+
+  a {
+    @apply p-3 w-full rounded-xl;
+
+    &:hover {
+      @apply bg-gray-100 rounded-xl;
+    }
+  }
+}
